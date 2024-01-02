@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="fonc.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Ajout de mesures:</legend>
+            station: <select name="" id="sta">
+                <option value="0">choisir un station</option>
+                <option value="1">Carthage</option>
+                <option value="2">Enfidha-Aéroport</option>
+                <option value="3"> Al Borma</option>
+            </select>
+            saison <select name="" id="sai">
+                <option value="0">choisir une saison</option>
+                <option value="1">Hiver</option>
+                <option value="2">Printemps</option>
+                <option value="3">Eté</option>
+                <option value="4">Automne</option>
+            </select><br>
+            Année: <input type="radio" name="2018" id="2018"> 2018 <input type="radio" name="2019" id="2019">2019 <br>
+            temperature <input type="text" name="temp" id="temp">(c)  peluis: <input type="text" name="pel" id="pel">(mm)<br>
+            <input type="reset" value="Annulle">
+            <input type="button" value="Ajouter" onclick="verif()">
+
+        </fieldset>
+    </form>
+</body>
+</html>
